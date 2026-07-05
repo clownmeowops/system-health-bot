@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    container_name: my_telegram_bot
+    restart: always
+    env_file:
+      - .env
